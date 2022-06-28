@@ -2,8 +2,8 @@
   <li class="actors-list-item">
     <img
       :src="actor?.image?.medium"
-      :alt="actor.name"
       class="actors-list-item__picture"
+      alt="N/A"
     />
     <strong class="actors-list-item__name">{{ actor.name }}</strong>
     <p class="actors-list-item__birthday">{{ actor.birthday }}</p>

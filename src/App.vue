@@ -25,7 +25,6 @@ import { store } from "./store";
 onMounted(() => {
   const localFavActors = localStorage.getItem("favoriteActors");
   store.favoriteActors = localFavActors ? JSON.parse(localFavActors) : [];
-  console.log("store.favoriteActors :>> ", store.favoriteActors);
 });
 </script>
 
